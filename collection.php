@@ -7,8 +7,7 @@
 	include("component/link.php");
 	?>
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js">
+
 </head>
 <body>
 	<?php include("component/navbar.php");?>
@@ -55,10 +54,20 @@
 							<a href="img/25-Bomboniera-Head.jpg" title="HandMade">
 								<img src="img/25-Bomboniera-Head.jpg" alt="HandMade">
 							</a>
-							<a href="img/9.JPG" title="HandMade">
+							<a href="img/9.JPG" data-toggle="tooltip" data-placement="top" title="Add to Wishlist">
+							<i class="fa fa-heart"></i></a>
 								<img src="img/9.JPG" alt="HandMade">
 							</a>
 						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col col-xs-10 col-sm-10 col-md-12 col-lg-12">
+				<div class="btn btn-primary btn-sm inputfile">
+						<span>Choose file</span>
+						<input type="file" name="myfile" />
 					</div>
 				</div>
 			</div>
@@ -91,11 +100,11 @@
 
 						<div class="md-form">
 							<i class="fa fa-weixin prefix"></i>
-							<input type="text" id="form2" placeholder="Your commentes" name='commentes' class="form-control">
+							<input id="input_text" type="text" placeholder="Your commentes" length="10">
 						</div>
 
 						<div class="text-center">
-							<button class="btn btn-deep-orange">ADD</button>
+							<button class="btn btn-default">ADD</button>
 						</div>
 						</form>
 					</div>

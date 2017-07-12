@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 		<?php
 			include("component/meta.php");
 			include("component/link.php");
@@ -13,9 +14,9 @@
 		<div class="row">
 			<div class="col col-xs-12 col-sm-12 col-lg-12 col-md-12 img">
 				<div class="wolcam ">
-					<h1 class="text-center">Contact Me</h1>
+					<h1 class="text-center titlu">Contact Me</h1>
 					<hr class="small">
-					<h2 class="text-center">Have questions? I have answers.</h2>
+					<h2 class="text-center">Have questions? <br>I have answers.</h2>
 				</div>
 			</div>
 		</div>
