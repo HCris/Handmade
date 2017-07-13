@@ -63,6 +63,20 @@ body { font-family: sans-serif; }
 	color:#467e99;
 	padding-right: 5px;
 }
+.parallax {
+    /* The image used */
+    background-image: url("../img/1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
 /**************************************************************/
 /****************************index.php*************************/
 /**************************************************************/
@@ -175,20 +189,4 @@ a:hover {
 .admin_form input , textarea{
 margin-top: 20px;
 margin-bottom: 20px;
-}
-
-.inputfile {
-  background: ;
-  padding: 8px 20px;
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
-  display: none;
-}
-.upload-btn-wrapper input[type=file] {
-  font-size: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
 }

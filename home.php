@@ -59,10 +59,46 @@
 				</a>
 			</div>
 			<div class="col col-xs-10 col-sm-4 col-md-4 col-lg-4 box3">
+			<a href="#abaut_me">
 				<img src="img/portofoliu.png" alt="contacte">
-				<h3>Portfolio</h3>
+				<h3>About Me</h3>
+			</a>
 			</div>
 		</div>
+		<div class="parallax"></div>
+		<section class="section extra-margins">
+		<!--Section: Blog v.1-->
+			<div class="row">
+
+				<!--First column-->
+					<div id="abaut_me" class=" col-xs-10 col-xs-offset-1 col-sm-4 col-md-4 mb-r">
+					<!--Featured image-->
+						<div class="view overlay hm-white-slight">
+							<img src="https://mdbootstrap.com/img/Photos/Horizontal/People/6-col/img%20(80).jpg" alt="Sample image for first version of blog listing">
+								<a>
+									<div class="mask waves-effect waves-light"></div>
+								</a>
+						</div>
+					</div>
+				<!--/First column-->
+				<!--Second column-->
+				<div class="col-xs-10 col-xs-offset-1 col-md-6 mb-r">
+				<!--Excerpt-->
+					<a class="amber-text">
+						<h5>
+							<i class="fa fa-diamond"></i>Abaout Me
+						</h5>
+					</a>
+					<h4>Classic outfit - white off-shoulder top and denim.</h4>
+					<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
+					<p>by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+					<a class="btn btn-cyan">Read more</a>
+				</div>
+			</div>
+		</section>
+<!--/Section: Blog v.1-->
+	<!--/Second column-->
+
 		<?php
 			include("component/script.php");
 			include("component/footer.php");

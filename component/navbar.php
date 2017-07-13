@@ -10,7 +10,7 @@
 		<nav class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#"><img src="img/handmade_01.jpg" alt="Logou" height="50" width="100"></a>
+					<a class="navbar-brand" href="home.php"><img src="img/handmade_01.jpg" alt="Logou" height="50" width="100"></a>
 				</div>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only"></span>
