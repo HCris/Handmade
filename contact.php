@@ -73,7 +73,8 @@
 					<div class="row">
 							<div class="text-center">
 								<h3>
-									<i class="fa fa-desktop"></i>social networks
+									<i class="fa fa-desktop prefix"></i>
+									social networks
 								</h3>
 								<hr class="mt-2 mb-2">
 							</div>
