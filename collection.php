@@ -62,16 +62,14 @@
 					</div>
 				</div>
 			</div>
-			<hr>
 			<div class="row">
 				<div class="col col-xs-10 col-sm-10 col-md-12 col-lg-12">
-				<div class="btn btn-primary btn-sm inputfile">
+					<div class="btn btn-primary btn-sm inputfile">
 						<span>Choose file</span>
-						<input type="file" name="myfile" />
+						<input type="file" name="myfile" multiple />
 					</div>
 				</div>
 			</div>
-			<hr>
 			<div class="container">
 				<div class="row">
 					<div class="col col-xs-10 col-sm-10 col-md-12 col-lg-12">

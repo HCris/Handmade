@@ -124,19 +124,16 @@ body{
 	background:url(../img/4.jpg) no-repeat center center;
 	background-size: cover;
 	height: 400px;
-	width: 100%;
 	opacity: 0.7;
 	/*background-color: rgba(30, 30, 33, 0.9);*/
 }
 .wolcam{
 	margin-top:50px;
-	margin-left:auto;
-	margin-right: auto;
 	font-weight: bold;
 	color:#ffffff;
 	background-color: rgba(30, 30, 33, 0.7);
 	padding: 20px;
-	width: 300px;
+	width: auto;
 	height: auto;
 	font-family: 'Lora', serif;
 	letter-spacing: 2px;
@@ -145,9 +142,7 @@ body{
 .wolcam h1{
 	font-family: Georgian;
 }
-.capsula{
-	margin-top:75px;
-}
+
 a, i{
 	text-decoration:none;
 	line-height: 1.5;
@@ -188,6 +183,7 @@ margin-bottom: 20px;
   border-radius: 8px;
   font-size: 20px;
   font-weight: bold;
+  display: none;
 }
 .upload-btn-wrapper input[type=file] {
   font-size: 100px;

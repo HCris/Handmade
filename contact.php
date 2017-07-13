@@ -13,7 +13,7 @@
 
 		<div class="row">
 			<div class="col col-xs-12 col-sm-12 col-lg-12 col-md-12 img">
-				<div class="wolcam ">
+				<div class="wolcam col col-xs-4 col-xs-offset-4  col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 ">
 					<h1 class="text-center titlu">Contact Me</h1>
 					<hr class="small">
 					<h2 class="text-center">Have questions? <br>I have answers.</h2>
@@ -23,7 +23,7 @@
 <!-- Contact -->
 		<div class="row ">
 				<div class="col col-xs-12 col-sm-6 col-md-6">
-						<form class="form-style-7" id="#message" action="contact_me.php" method="post">
+						<form class="col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8" id="#message" action="contact_me.php" method="post">
 							<!--Header-->
 							<div class="text-center">
 							<h3><i class="fa fa-envelope"></i> Write to us:</h3>
@@ -71,33 +71,37 @@
 
 				<div class=" col col-xs-12 col-sm-6 col-md-6 col-lg-6 capsula ">
 					<div class="row">
-							<div class="box col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8">
+							<div class="text-center">
+								<h3>
+									<i class="fa fa-desktop"></i>social networks
+								</h3>
+								<hr class="mt-2 mb-2">
+							</div>
+							<p>Or you find me on social networks</p>
+							<br>
+							<div class="box col col-xs-8 col-xs-offset-2 col-sm-8 col-md-8 col-lg-8">
 								<i class="fa fa-twitter fa-2x" aria-hidden="true">
 										<a href="#">twitter.com</a>
 								</i>
 							</div>
-							<div class="box col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8">
+							<div class="box  col col-xs-8 col-xs-offset-2 col-sm-8 col-md-8 col-lg-8">
 								<i class="fa fa-facebook-square fa-2x" aria-hidden="true">
 									<a href="#">facebook.com</a>
 								</i>
 							</div>
-							<div class="box col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8">
+							<div class="box  col col-xs-8 col-xs-offset-2 col-sm-8 col-md-8 col-lg-8">
 								<i class="fa fa-instagram fa-2x" aria-hidden="true">
 									<a href="#">instagram.com</a>
 								</i>
 							</div>
-							<div class="box col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8">
+							<div class="box col col-xs-8 col-xs-offset-2 col-sm-8 col-md-8 col-lg-8">
 								<i class=" fa fa-envelope fa-2x" aria-hidden="true">
 									<a href="#">cristina.haruta95@gmail.com</a>
 								</i>
 							</div>
-							<div class="box col col-xs-10 col-xs-offset-1 col-sm-8 col-md-8 col-lg-8">
-								<i class="fa fa-phone-square fa-2x" aria-hidden="true">060447114</i>
-							</div>
 						</div>
 					</div>
 				</div>
-
 			</div><!-- END row -->
 <hr>
 	<?php
