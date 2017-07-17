@@ -49,8 +49,8 @@
 			<div class="row">
 			<?php print $collection ?>
 		</div>
-<!-- 			<div class="row">
-					<div class="col col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			<div class="row">
+					<!--<div class="col col-xs-12 col-sm-4 col-md-4 col-lg-4">
 						<div class="thumbnail">
 							<a href="#" class="">
 								<div class="caption">
