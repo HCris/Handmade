@@ -38,6 +38,10 @@ body { font-family: sans-serif; }
 	text-align:center;
 	color:#bfaa95;
 }
+.buton{
+background-color:#d4caca;
+}
+
 .box3 a{
 	text-decoration: none;
 	color:#bfaa95;
@@ -65,7 +69,7 @@ body { font-family: sans-serif; }
 }
 .parallax {
     /* The image used */
-    background-image: url("../img/kai-oberhauser-309715.jpg");
+    background-image: url("../img/paralax.jpg");
 
     /* Set a specific height */
     min-height: 500px;

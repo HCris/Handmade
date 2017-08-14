@@ -92,7 +92,7 @@
 					<h4>Classic outfit - white off-shoulder top and denim.</h4>
 					<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis aut rerum.</p>
 					<p>by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
-					<a class="btn btn-cyan">Read more</a>
+					<a class="btn  buton ">Read more</a>
 				</div>
 			</div>
 		</section>
