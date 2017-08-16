@@ -68,18 +68,18 @@ background-color:#d4caca;
 	padding-right: 5px;
 }
 .parallax {
-    /* The image used */
-    background-image: url("../img/paralax.jpg");
 
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 100px;
+	background-image: url("../img/paralax.jpg");
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+.img_pro img{
+	height: 275px;
+	width: 400px;
 }
 /**************************************************************/
 /****************************index.php*************************/

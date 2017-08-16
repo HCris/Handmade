@@ -104,3 +104,15 @@ function validation_message_form(form){
 		});
 	});
 };
+/*******************************************home.php**********************************************////
+function main() {
+$('.hid').hide();
+$('hid').fadeIn(1000);
+
+
+$('.buton').on('click', function() {
+		$('.hid').show();
+	});
+}
+
+$(document).ready(main);
